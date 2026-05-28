@@ -1,0 +1,30 @@
+{
+  "name": "aap-upgrade-decisions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Consultant tool for recommending Ansible Automation Platform upgrade paths",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@patternfly/patternfly": "^6.4.0",
+    "@patternfly/react-core": "^6.4.1",
+    "@patternfly/react-icons": "^6.4.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.13.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.3",
+    "vitest": "^4.0.18"
+  }
+}

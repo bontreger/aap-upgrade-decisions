@@ -1,0 +1,27 @@
+.report-section {
+  margin-bottom: 2rem;
+}
+
+.report-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.stage-table {
+  width: 100%;
+}
+
+.os-option-disabled {
+  opacity: 0.55;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .pf-v6-c-page__sidebar {
+    display: none !important;
+  }
+}
